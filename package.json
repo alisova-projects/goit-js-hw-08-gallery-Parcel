@@ -11,13 +11,13 @@
   },
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./goit-js-hw-08-gallery-Parcel/"
+    "build": "parcel build src/index.html --public-url='/goit-js-hw-08-gallery-Parcel/'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alisova-projects/goit-js-hw-08-gallery-Parcel.git"
   },
-  "author": "",
+  "author": "Elena Alisova",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alisova-projects/goit-js-hw-08-gallery-Parcel/issues"
