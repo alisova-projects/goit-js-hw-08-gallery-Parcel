@@ -1,5 +1,5 @@
 import galleryItems from './img/gallery-items';
-import './styles.scss';
+import './css/styles.scss';
 import refs from './js/refs';
 
 // создаём разметку галлереи
