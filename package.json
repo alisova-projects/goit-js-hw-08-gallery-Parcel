@@ -9,12 +9,13 @@
   },
   "devDependencies": {
     "parcel-plugin-custom-dist-structure": "^1.1.16",
+    "parcel-plugin-nuke-dist": "^1.0.1",
     "sass": "^1.26.11"
   },
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "predeploy": "npm run build -- --public-url ./goit-js-hw-08-gallery-Parcel/",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-08-gallery-Parcel/",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
