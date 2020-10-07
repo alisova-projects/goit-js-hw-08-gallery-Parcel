@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "predeploy": "npm run build -- --public-url='/goit-js-hw-08-gallery-Parcel/'",
+    "predeploy": "npm run build -- --public-url ./goit-js-hw-08-gallery-Parcel/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
